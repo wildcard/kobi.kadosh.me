@@ -29,6 +29,8 @@ We know the web is an ever-changing thing; what works today will change tomorrow
 
 Browser compatibility changes, your users’ traits and behaviors change. It’s your time to change with it too.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&gt; who wrote this code, it&#39;s awful<br>$ git blame<br>&gt; ...oh it was me <a href="https://t.co/3rgSC2ASFI">pic.twitter.com/3rgSC2ASFI</a></p>&mdash; I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/status/1030076156643627009?ref_src=twsrc%5Etfw">August 16, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 I’m hoping my tip could help you avoid those awkward moments of: “Did I wrote this code?!”
 
 ## What would hold us down from growing professionally
@@ -37,15 +39,9 @@ Why am I not learning about new technologies & techniques that could make my lif
 
 [We don’t know what we don’t know](https://medium.com/@estherhofknechtcurtis/you-dont-what-you-don-t-know-until-you-know-the-dunning-kruger-effect-c32a4708263e). In our career we reach a saturation point — I call this point the “confidence peak” standing on top of our confidence mountain some of us will be presented with a choice — “jump” to the knowledge abyss but never reach your current level of confidence. In contrast, jumping will give you a chance to learn. This state is explained by the Dunning-Kruger syndrome.
 
-![This the Dunning Kruger effect graph - explaining Starcraft gaming experience](/media/i-know-everything.png "Starcraft Dunning Kruger effect graph ")
+![This the Dunning Kruger effect graph - explaining Starcraft gaming experience](/media/i-know-everything.png "Starcraft Dunning Kruger effect graph")
 
-> Originally posted on 
->
-> [r/starcraft](https://www.reddit.com/r/starcraft/comments/91avn5/dunningkruger_effect_also_applies_in_starcraft/)
->
->  by 
->
-> [u/RagnarToss](https://www.reddit.com/user/RagnarToss)
+> Originally posted on [r/starcraft](https://www.reddit.com/r/starcraft/comments/91avn5/dunningkruger_effect_also_applies_in_starcraft/) by [u/RagnarToss](https://www.reddit.com/user/RagnarToss)
 
 This the Dunning Kruger effect graph, you read it from left to right while advancement right is more experience you get (aligned with time), the height is your confidence. This one is a funny interpretation for your skill level vs confidence at the popular game Starcraft.
 
