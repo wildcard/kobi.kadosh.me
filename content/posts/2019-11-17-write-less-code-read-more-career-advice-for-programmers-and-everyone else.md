@@ -19,7 +19,7 @@ I started my career as a young developer fresh from my mandatory military servic
 
 Hypothesis: I consulted the internet even if I already knew something. A couple of jobs and years later I can say: It worked. Now I’m here to convince you to take a big breath (or use your 5 min [Pomodoro technique break](https://en.wikipedia.org/wiki/Pomodoro_Technique)) to think and research before jumping into writing code or tackling most complex tasks. I decided to write less code in 2012 and have accumulated more knowledge in a shorter time than most developers do.
 
-![Me Looking back on my 10 years journey ](/media/natural-intelligence-by-kz_647.jpeg "10 years and I’m still alive 🙌")
+![Me Looking back on my 10 years journey](/media/natural-intelligence-by-kz_647.jpeg "10 years and I’m still alive 🙌")
 
 > Here’s where it took me.
 
