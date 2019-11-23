@@ -3,7 +3,6 @@ template: post
 title: "Write Less Code, Read More: Career Advice For Programmers (And Everyone\_Else)"
 slug: write-less-read-more
 draft: false
-socialImage: "/media/natural-intelligence-by-kz_647.jpeg"
 date: 2019-11-16T23:37:09.472Z
 description: >-
   We don't know what we don't know - You've got a task? Instead of going ahead
@@ -48,7 +47,7 @@ This the Dunning Kruger effect graph, you read it from left to right while advan
 
 ## When Continued Learning Simply Works
 
-When is it worth your while to learn? For me it touches every corner of my career, now @Natural Intelligence when discovering the world of SSG, JAMstack & Gatsby.js, and in the past, at virtually every company I’ve worked for.
+When is it worth your while to learn? For me, it touches every corner of my career, now @Natural Intelligence when discovering the world of SSG, JAMstack & Gatsby.js, and in the past, at virtually every company I’ve worked for.
 
 A few years ago I worked @Payoneer, in 2014–15, when React wasn’t popular in Israeli tech — Angular was king. Back then we looked for an opportunity to reinvent our front-end process to allow rapid development of features for the main product. Being the reader that I am, I learned of React (a JavaScript library) and after many discussions with my fellow architects, I pushed to use it instead of Angular. React fit our new process like a glove and was proven to be super effective. We integrated React to our current system without any complex changes. It allowed us to share code between multiple mini-applications/product features that were developed.
 
@@ -86,7 +85,7 @@ We use Google every day. Pay attention and you can see that Google results are b
 
 ## Own Your Career Path
 
-Coding, particularly developing web solutions, is a great challenge, but as with any new task that shows up on your desk, information flux (too many options! [see Overchoice](https://en.wikipedia.org/wiki/Overchoice) or [JavaScript Fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4)), raises the “code freshness” concern, which I define as making sure code is up-to-date with the latest, most stable and widely known methodologies, written while considering all the available options, without [code smells](https://en.wikipedia.org/wiki/Code_smell). Uncle Bob call it [Clean Code](https://blog.cleancoder.com/). Whatever you call it, and whichever field you work in, understanding the modern industry and current changes, regulations, and tools can build your skills and grow your knowledge.
+Coding, particularly developing web solutions, is a great challenge, but as with any new task that shows up on your desk, information flux (too many options! [see Overchoice](https://en.wikipedia.org/wiki/Overchoice) or [JavaScript Fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4)), raises the “code freshness” concern, which I define as making sure code is up-to-date with the latest, most stable and widely known methodologies, written while considering all the available options, without [code smells](https://en.wikipedia.org/wiki/Code_smell). Uncle Bob calls it [Clean Code](https://blog.cleancoder.com/). Whatever you call it, and whichever field you work in, understanding the modern industry and current changes, regulations, and tools can build your skills and grow your knowledge.
 
 Before you start anything, give it a couple of minutes and research a fresh solution. The day-to-day activities we do are super important to reach our career goals, and each one is a chance to learn something new. Choose the best media strategy for your field, keep reading, and get less busy writing code (or whatever it is you do). We’re not coders but software engineers, data analysts, sales managers, creative professionals, designers. We should come up with solutions beyond what’s already between our ears. It’s our responsibility to do it in a timely way, with the best quality we can.
 
