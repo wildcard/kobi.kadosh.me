@@ -2,7 +2,7 @@
 template: post
 title: 'Johannes Gutenberg: The Birth of Movable Type'
 slug: /posts/the-birth-of-movable-type/
-draft: false
+draft: true
 date: '2017-08-18T22:12:03.284Z'
 description: >-
   German inventor Johannes Gutenberg developed a method of movable type and used

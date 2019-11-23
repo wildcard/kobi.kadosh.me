@@ -3,6 +3,7 @@ template: post
 title: "Write Less Code, Read More: Career Advice For Programmers (And Everyone\_Else)"
 slug: write-less-read-more
 draft: false
+socialImage: "/media/natural-intelligence-by-kz_647.jpeg"
 date: 2019-11-16T23:37:09.472Z
 description: >-
   We don't know what we don't know - You've got a task? Instead of going ahead

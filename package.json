@@ -1,7 +1,7 @@
 {
-  "version": "3.0.3",
-  "name": "gatsby-starter-lumen",
-  "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
+  "version": "1.0.0",
+  "name": "kobi-kadosh-me-blog",
+  "description": "Kobi Kadosh's Blog",
   "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
@@ -16,8 +16,8 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "repository": "https://github.com/wildcard/kobi.kadosh.me",
+  "author": "Kobi Kadosh <kobi.kadosh@gmail.com>",
   "license": "MIT",
   "keywords": [
     "gatsby",
