@@ -1,15 +1,19 @@
 // @flow strict
 import React from 'react';
 import { withPrefix, Link } from 'gatsby';
-import Img from 'gatsby-image';
+import Img, { FluidObject } from 'gatsby-image';
 import styles from './Author.module.scss';
 
 type Props = {
   author: {
     name: string,
     bio: string,
-    photo: string,
   },
+  photo: {
+      childImageSharp: {
+        fluid: FluidObject
+      }
+    },
   isIndex: ?boolean,
 };
 

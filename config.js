@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'Kobi Kadosh',
-    photo: '/photo.jpg',
+    photo: '/kobi-kadosh-thumb-256.jpg',
     bio: 'Code Artisan, Web solutionist',
     contacts: {
       email: 'kobi@kadosh.me',
