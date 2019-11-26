@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://kobi.kadosh.me',
   pathPrefix: '/',
-  title: 'Artisanal Code -A Blog by Kobi Kadosh',
+  title: 'Artisanal Code - A Blog by Kobi Kadosh',
   subtitle: 'Carefully craft web solutions since 2009',
   copyright: '© All rights reserved.',
   disqusShortname: '',
