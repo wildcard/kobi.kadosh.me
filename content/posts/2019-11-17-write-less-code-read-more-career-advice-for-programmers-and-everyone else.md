@@ -32,7 +32,7 @@ Browser compatibility changes, your users’ traits and behaviors change. It’s
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&gt; who wrote this code, it&#39;s awful<br>$ git blame<br>&gt; ...oh it was me <a href="https://t.co/3rgSC2ASFI">pic.twitter.com/3rgSC2ASFI</a></p>&mdash; I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/status/1030076156643627009?ref_src=twsrc%5Etfw">August 16, 2018</a></blockquote>
 
-I’m hoping my tip could help you avoid those awkward moments of: “Did I wrote this code?!”
+I’m hoping my tip could help you avoid those awkward moments of: “Did I write this code?!”
 
 ## What would hold us down from growing professionally
 
