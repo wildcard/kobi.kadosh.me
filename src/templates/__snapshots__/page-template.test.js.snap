@@ -122,6 +122,44 @@ exports[`PageTemplate renders correctly 1`] = `
           Test bio
         </p>
       </div>
+      <nav
+        className="menu"
+      >
+        <ul
+          className="menu__list"
+        >
+          <li
+            className="menu__list-item"
+          >
+            <a
+              className="menu__list-item-link"
+              href="/test/1/"
+            >
+              Test label 1
+            </a>
+          </li>
+          <li
+            className="menu__list-item"
+          >
+            <a
+              className="menu__list-item-link"
+              href="/test/2/"
+            >
+              Test label 2
+            </a>
+          </li>
+          <li
+            className="menu__list-item"
+          >
+            <a
+              className="menu__list-item-link"
+              href="/test/3/"
+            >
+              Test label 3
+            </a>
+          </li>
+        </ul>
+      </nav>
       <div
         className="contacts"
       >
