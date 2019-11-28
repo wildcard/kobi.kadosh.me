@@ -25,7 +25,7 @@ module.exports = {
     // },
     {
       label: 'LevelUP MeetUp',
-      path: '/levelUP',
+      path: 'https://kobi.kadosh.me/levelUP',
     },
   ],
   author: {
