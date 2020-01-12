@@ -14,7 +14,7 @@ jobs:
           keys:
             - dependencies-{{ checksum "yarn.lock" }}
       - run: yarn install --frozen-lockfile
-      - run: npm i -g eslint
+      - run: npm i eslint
       - save_cache:
           paths:
             - node_modules
@@ -32,7 +32,7 @@ jobs:
       - run:
           command: |
             mkdir -p ~/test-results/eslint/
-            eslint --cache --ext .js,.jsx . --format junit --output-file ~/test-results/eslint/eslint.xml
+            npx eslint --cache --ext .js,.jsx . --format junit --output-file ~/test-results/eslint/eslint.xml
           when: always
       - store_test_results:
           path: test-results
