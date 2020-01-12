@@ -35,7 +35,11 @@ jobs:
       - restore_cache:
           keys:
             - dependencies-{{ checksum "yarn.lock" }}
-      - run: yarn test --runInBand --no-cache
+      - run:
+          name: Run tests with JUnit as reporter
+          command: yarn test --ci --runInBand --no-cache  --reporters=default --reporters=jest-junit
+          environment:
+            JEST_JUNIT_OUTPUT_DIR: "reports/junit/js-test-results.xml"
 
   coverage:
     <<: *defaults
