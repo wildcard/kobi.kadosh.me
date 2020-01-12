@@ -13,6 +13,11 @@ describe('Menu', () => {
       {
         label: 'Item 1',
         path: '/#1/'
+      },
+      {
+        label: 'External Item 1',
+        path: 'https://www.example.com',
+        external: true
       }
     ]
   };

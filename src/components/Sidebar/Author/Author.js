@@ -1,6 +1,6 @@
 // @flow strict
 import React from 'react';
-import { withPrefix, Link } from 'gatsby';
+import { Link } from 'gatsby';
 import Img, { FluidObject } from 'gatsby-image';
 import styles from './Author.module.scss';
 

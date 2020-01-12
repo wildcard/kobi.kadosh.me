@@ -27,6 +27,17 @@ exports[`Menu renders correctly 1`] = `
         Item 1
       </a>
     </li>
+    <li
+      className="menu__list-item"
+    >
+      <a
+        activeClassName="menu__list-item-link--active"
+        className="menu__list-item-link"
+        href="https://www.example.com"
+      >
+        External Item 1
+      </a>
+    </li>
   </ul>
 </nav>
 `;
