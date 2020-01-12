@@ -9124,7 +9124,7 @@ jest-jasmine2@^24.9.0:
 
 jest-junit@^10.0.0:
   version "10.0.0"
-  resolved "http://repo.naturalint.com:8081/repository/NI-NPM/jest-junit/-/jest-junit-10.0.0.tgz#c94b91c24920a327c9d2a075e897b2dba4af494b"
+  resolved "https://registry.yarnpkg.com/jest-junit/-/jest-junit-10.0.0.tgz#c94b91c24920a327c9d2a075e897b2dba4af494b"
   integrity sha512-dbOVRyxHprdSpwSAR9/YshLwmnwf+RSl5hf0kCGlhAcEeZY9aRqo4oNmaT0tLC16Zy9D0zekDjWkjHGjXlglaQ==
   dependencies:
     jest-validate "^24.9.0"

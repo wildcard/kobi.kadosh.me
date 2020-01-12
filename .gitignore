@@ -1,5 +1,7 @@
 node_modules/
 coverage/
+test-results/
+junit.xml
 .cache/
 public/
 npm-debug.log
