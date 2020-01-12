@@ -31,8 +31,8 @@ jobs:
       - run: yarn run lint:scss
       - run:
           command: |
-            mkdir -p ~/test-results/eslint/
-            npx eslint --cache --ext .js,.jsx . --format junit --output-file ~/test-results/eslint/eslint.xml
+            mkdir -p test-results/eslint/
+            npx eslint --cache --ext .js,.jsx . --format junit --output-file test-results/eslint/eslint.xml
           when: always
       - store_test_results:
           path: test-results
