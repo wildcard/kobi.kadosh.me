@@ -25,7 +25,7 @@ module.exports = {
     // },
     {
       label: 'LevelUP MeetUp',
-      path: 'https://kobi.kadosh.me/levelUP',
+      path: 'https://www.levelup.naturalint.com/',
       external: true,
     },
   ],
