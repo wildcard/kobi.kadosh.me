@@ -14,7 +14,7 @@ jobs:
           keys:
             - dependencies-{{ checksum "yarn.lock" }}
       - run: yarn install --frozen-lockfile
-      - run: npm i eslint
+      - run: yarn global add eslint
       - save_cache:
           paths:
             - node_modules
