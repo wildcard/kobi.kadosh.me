@@ -27,7 +27,7 @@ module.exports = {
       label: 'LevelUP MeetUp',
       path: 'https://www.levelup.naturalint.com/',
       external: true,
-    },
+    }
   ],
   author: {
     name: 'Kobi Kadosh',
@@ -46,6 +46,9 @@ module.exports = {
       line: '',
       gitlab: '',
       weibo: '',
-    },
+      codepen: '',
+      youtube: '',
+      soundcloud: '',
+    }
   },
 };

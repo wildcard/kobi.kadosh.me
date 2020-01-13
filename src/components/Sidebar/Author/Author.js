@@ -7,7 +7,7 @@ import styles from './Author.module.scss';
 type Props = {
   author: {
     name: string,
-    bio: string,
+    bio: string
   },
   photo: {
       childImageSharp: {
@@ -23,11 +23,13 @@ const Author = ({ author, photo, isIndex }: Props) => (
       <Img
         fluid={photo.childImageSharp.fluid}
         className={styles['author__photo']}
+        width="75"
+        height="75"
         alt={author.name}
       />
     </Link>
 
-    {isIndex === true ? (
+    { isIndex === true ? (
       <h1 className={styles['author__title']}>
         <Link className={styles['author__title-link']} to="/">
           {author.name}

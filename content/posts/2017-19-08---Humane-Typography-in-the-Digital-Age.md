@@ -1,7 +1,7 @@
 ---
 template: post
 title: Humane Typography in the Digital Age
-slug: /posts/humane-typography-in-the-digital-age/
+slug: humane-typography-in-the-digital-age
 draft: true
 date: '2017-08-19T22:40:32.169Z'
 description: >-
@@ -13,6 +13,7 @@ tags:
   - Design
   - Typography
   - Web Development
+socialImage: "/media/42-line-bible.jpg"
 ---
 
 - [The first transition](#the-first-transition)

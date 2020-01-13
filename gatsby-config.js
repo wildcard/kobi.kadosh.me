@@ -115,7 +115,7 @@ module.exports = {
             options: {
               maxWidth: 960,
               withWebp: true,
-              ignoreFileExtensions: []
+              ignoreFileExtensions: [],
             }
           },
           {
@@ -136,7 +136,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        modulePath: `${__dirname}/src/cms/index.js`
+        modulePath: `${__dirname}/src/cms/index.js`,
       }
     },
     {
@@ -144,9 +144,9 @@ module.exports = {
       options: {
         trackingIds: [siteConfig.googleAnalyticsId],
         pluginConfig: {
-          head: true
-        }
-      }
+          head: true,
+        },
+      },
     },
     {
       resolve: 'gatsby-plugin-sitemap',
@@ -189,7 +189,7 @@ module.exports = {
         theme_color: '#446531',
         display: 'standalone',
         icon: 'static/kobi-kadosh-thumb-256.jpg'
-      }
+      },
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
@@ -199,7 +199,7 @@ module.exports = {
       options: {
         postCssPlugins: [...postCssPlugins],
         cssLoaderOptions: {
-          camelCase: false
+          camelCase: false,
         }
       }
     },
