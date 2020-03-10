@@ -6890,7 +6890,7 @@ gatsby-cli@^2.10.0:
     ink "^2.6.0"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@^1.0.26, gatsby-core-utils@^1.0.28, gatsby-core-utils@^1.0.30, gatsby-core-utils@^1.0.31:
+gatsby-core-utils@^1.0.26, gatsby-core-utils@^1.0.28, gatsby-core-utils@^1.0.31:
   version "1.0.31"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.31.tgz#f0a3c37c46a0429f5ce10fee0c01a60718a36216"
   integrity sha512-QvyAaC2nK+34giEPn2eMMkruvzyz4cD3+68RFV9A71HDuLU7FTgnhahyV8QmqZdjK2zVnhEIs2rGuf4weEuu1g==
@@ -7110,10 +7110,10 @@ gatsby-react-router-scroll@^2.1.22:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-remark-autolink-headers@^2.1.24:
-  version "2.1.24"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-autolink-headers/-/gatsby-remark-autolink-headers-2.1.24.tgz#7edea9a49dd02de6a20a83c40aa51aac6de9fe47"
-  integrity sha512-8cVIE0UEYPo9BcTdVNwDF3phYvRJ2jfFNK0VXt2y1uJelfczjPwBDl7sL6GaHEA7WPPok5Ac7ZRI4jgYI84tPw==
+gatsby-remark-autolink-headers@^2.1.25:
+  version "2.1.25"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-autolink-headers/-/gatsby-remark-autolink-headers-2.1.25.tgz#420b7a6ed03da9b515732f6a554770df9f8f2903"
+  integrity sha512-E8L+3Ub49/v8K5jOcaHmjul0vG50EQdqGFVKrmspEJrHhgDkSascayAtiCdpMbxIPEnuRP35nnu2dYqGaaxSIw==
   dependencies:
     "@babel/runtime" "^7.7.6"
     github-slugger "^1.2.1"
