@@ -6882,7 +6882,7 @@ gatsby-cli@^2.10.5:
     ink "^2.6.0"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@^1.0.26, gatsby-core-utils@^1.0.32, gatsby-core-utils@^1.0.33:
+gatsby-core-utils@^1.0.32, gatsby-core-utils@^1.0.33:
   version "1.0.33"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.33.tgz#bd0d1ed0afed7f90c82c6da5b9ba13b727bcf1e9"
   integrity sha512-eQkOQumfbMLdbKJN0E1dlnBjAKWAzexxuNdpL88yCIaqHGOMogGTmAmhG1Hs0sz9bMrNPxuIgEyDNQe3IDfJXw==
@@ -7050,16 +7050,16 @@ gatsby-plugin-sass@^2.1.30:
     "@babel/runtime" "^7.7.6"
     sass-loader "^7.3.1"
 
-gatsby-plugin-sharp@^2.3.10:
-  version "2.3.13"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.3.13.tgz#664d24f148a59552ebcd2fa92bfdab0b8dc4e9d9"
-  integrity sha512-4R6H7qGRFjyYIv5nqKXKh3yXNg0iK5XZXRi1yDP0IWsytKDo5CKgmX9XWrvoRSnlYj5TWOsv32nfeCbgUPK0Lw==
+gatsby-plugin-sharp@^2.4.11:
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.4.11.tgz#96386b89fb05f875f2503f11f77674b5d2aaa4e7"
+  integrity sha512-nozPmlLLitkNECyjU5vWiHpGErw8x1xbY51izad4pEvbMqPpreHLOaHNxOo+SUATuJPLl8k0avQDOxUfy9w3lw==
   dependencies:
     "@babel/runtime" "^7.7.6"
     async "^2.6.3"
     bluebird "^3.7.2"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.0.26"
+    gatsby-core-utils "^1.0.33"
     got "^8.3.2"
     imagemin "^6.1.0"
     imagemin-mozjpeg "^8.0.0"
@@ -7067,7 +7067,6 @@ gatsby-plugin-sharp@^2.3.10:
     imagemin-webp "^5.1.0"
     lodash "^4.17.15"
     mini-svg-data-uri "^1.1.3"
-    p-defer "^3.0.0"
     potrace "^2.1.2"
     probe-image-size "^4.1.1"
     progress "^2.0.3"
