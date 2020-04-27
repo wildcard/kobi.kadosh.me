@@ -7128,10 +7128,10 @@ gatsby-plugin-flow@^1.1.21:
     "@babel/preset-flow" "^7.8.3"
     "@babel/runtime" "^7.8.7"
 
-gatsby-plugin-google-gtag@^1.1.24:
-  version "1.1.24"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-1.1.24.tgz#da5c7a6bad13e89d642d8e3984f751c002e64ab7"
-  integrity sha512-6F6YILreEWQAdeZGdlAH2kS8F9zcWl7VbKFtJ9Vd76QAYiE9vOifXFpPUgW65hOyW9nn8tTiN0kZjLzfHNUPTA==
+gatsby-plugin-google-gtag@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-2.0.3.tgz#69bdd310f4513aadb70d044e138122d2494bead1"
+  integrity sha512-opXNGNFTj8NnzJWwkiByg7QAhbi1q3S3oAyOV8cJH+xfhN9qGl/ib6wzNmW1zVmiVKQXRQH86IyL/bTdb/ZaMw==
   dependencies:
     "@babel/runtime" "^7.8.7"
     minimatch "^3.0.4"
