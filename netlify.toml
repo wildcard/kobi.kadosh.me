@@ -14,11 +14,4 @@ package = "netlify-plugin-checklinks"
 package = "netlify-plugin-no-more-404"
 
 [[plugins]]
-package = "netlify-plugin-a11y"
-
-  [plugins.inputs]
-  checkPaths = ['/']
-  resultMode = "warn"
-
-[[plugins]]
 package = "netlify-plugin-subfont"
