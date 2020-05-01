@@ -8,6 +8,11 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
+      - name: Wait for Netlify Preview
+        uses: JosephDuffy/wait-for-netlify-action@v1.0
+        with:
+          # The Netlify site name to test against
+          site_name: kobi-kadosh-blog
       - name: Audit Netlify deploy preview
         uses: jakejarvis/lighthouse-action@master
         with:
