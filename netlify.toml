@@ -17,7 +17,7 @@ package = "netlify-plugin-no-more-404"
 package = "netlify-plugin-a11y"
 
   [plugins.inputs]
-  checkPaths = ['/posts']
+  checkPaths = ['/']
   resultMode = "warn"
 
 [[plugins]]
