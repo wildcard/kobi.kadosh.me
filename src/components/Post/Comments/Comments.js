@@ -1,13 +1,28 @@
 // @flow strict
 import React from 'react';
-// test
-const Comments = () => (
-    <script
-        async
-        src="https://comments.app/js/widget.js?2"
-        data-comments-app-website="TZJcMQ1J"
-        data-limit="5"
-    ></script>
-);
+import ReactDisqusComments from 'react-disqus-comments';
+import { useSiteMetadata } from '../../../hooks';
+
+type Props = {
+  postTitle: string,
+  postSlug: string
+};
+
+const Comments = ({ postTitle, postSlug }: Props) => {
+  const { url, disqusShortname } = useSiteMetadata();
+
+  if (!disqusShortname) {
+    return null;
+  }
+
+  return (
+    <ReactDisqusComments
+      shortname={disqusShortname}
+      identifier={postTitle}
+      title={postTitle}
+      url={url + postSlug}
+    />
+  );
+};
 
 export default Comments;
