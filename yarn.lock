@@ -905,10 +905,10 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
-  version "7.8.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.7.tgz#8fefce9802db54881ba59f90bb28719b4996324d"
-  integrity sha512-+AATMUFppJDw6aiR5NVPHqIQBlV/Pj8wY/EZH+lmvRdUo9xBaz/rF3alAwFJQavvKfeOlPE7oaaDHVbcySbCsg==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
+  version "7.11.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
+  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -7890,12 +7890,12 @@ gatsby-plugin-react-helmet@^3.1.24:
   dependencies:
     "@babel/runtime" "^7.8.7"
 
-gatsby-plugin-sass@^2.1.31:
-  version "2.1.31"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.1.31.tgz#c51ef3a6ec5451955d05fd3b7117bf55baab584d"
-  integrity sha512-3+2rvNxnBBcCRtc13D8aC/m8K6GznPcWJRBYX1YHiLYYw547eQG2YheRGrp+mzjgx5rv3XUF6WsFXroEUGXyfg==
+gatsby-plugin-sass@^2.3.15:
+  version "2.3.15"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.3.15.tgz#b981929c361d264ab76067bbaf7f687957fe83f3"
+  integrity sha512-VQXub6M8zjuuj2LMq6sNW1zLMPMKfSNIDhzTda+F1lX5X4IzBIksMwxu8BAcFw9uPavfGUHthrqZ9xq+cguscw==
   dependencies:
-    "@babel/runtime" "^7.8.7"
+    "@babel/runtime" "^7.11.2"
     sass-loader "^7.3.1"
 
 gatsby-plugin-sharp@^2.4.13:
