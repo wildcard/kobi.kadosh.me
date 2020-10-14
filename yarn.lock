@@ -12809,10 +12809,10 @@ netlify-plugin-gatsby-cache@^0.2.1:
   resolved "https://registry.yarnpkg.com/netlify-plugin-gatsby-cache/-/netlify-plugin-gatsby-cache-0.2.1.tgz#22d8ef9a9b022909ac3e330734a3362d11bef1c6"
   integrity sha512-y5gSjDXPWyj/Hdjp3WEGWjpeBH5nCnqztgF45JIK3/xVQBH4vwurOUsoK6C9500d7z2/CNH6I9k01crIA81pMw==
 
-netlify-plugin-no-more-404@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-no-more-404/-/netlify-plugin-no-more-404-0.0.14.tgz#e036a6be4fb15c99fca24e1b1757118b465392c1"
-  integrity sha512-JUkIA1p8HSvjWq7BiSYtSLCCaqagYYmhl3SLvJ0PIYRVinavakO09gc54sUF28qANZpkCVJpYPFiRme/ofJC9Q==
+netlify-plugin-no-more-404@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-no-more-404/-/netlify-plugin-no-more-404-0.0.15.tgz#869ceb2dec06daf88f1ad9ebfaad8c615fb5b432"
+  integrity sha512-Q5AVSTW+1GehpO92yLY3vPHrNRsBaWOiCnVBICltjkBT5dumykO5JBmPtQGWvQlimudXSt2lpnbZ6+/Arc4PJg==
   dependencies:
     chalk "^2.4.2"
     conf "^6.1.0"
