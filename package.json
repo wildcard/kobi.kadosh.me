@@ -80,7 +80,7 @@
     "netlify-plugin-gatsby-cache": "^0.2.1",
     "netlify-plugin-no-more-404": "^0.0.14",
     "netlify-plugin-subfont": "^4.0.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "normalize-scss": "^7.0.1",
     "prismjs": "^1.19.0",
     "react": "^16.13.1",
