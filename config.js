@@ -19,12 +19,13 @@ module.exports = {
     //   label: 'About me',
     //   path: '/pages/about',
     // },
-    // {
-    //   label: 'Contact me',
-    //   path: '/pages/contacts',
-    // },
     {
-      label: 'LevelUP MeetUp',
+      label: 'DevEd TLV Meetup group organizer',
+      path: 'https://www.meetup.com/dev-ed/',
+      external: true,
+    },
+    {
+      label: 'Organizer & MC LevelUP MeetUp 2019',
       path: 'https://www.levelup.naturalint.com/',
       external: true,
     }
