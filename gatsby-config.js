@@ -205,6 +205,12 @@ module.exports = {
     },
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs',
-    'gatsby-plugin-twitter'
+    'gatsby-plugin-twitter',
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://kobi.kadosh.me`,
+      },
+    },
   ]
 };
