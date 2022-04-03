@@ -10,26 +10,33 @@ type Props = {
     bio: string
   },
   photo: {
-      childImageSharp: {
-        fluid: FluidObject
-      }
-    },
+    childImageSharp: {
+      fluid: FluidObject
+    }
+  },
   isIndex: ?boolean,
 };
 
-const Author = ({ author, photo, isIndex }: Props) => (
+const Author = ({ author, gravatar, photo, isIndex }: Props) => (
   <div className={styles['author']}>
     <Link to="/">
-      <Img
-        fluid={photo.childImageSharp.fluid}
+      {gravatar ? <img
+        src={gravatar.url}
         className={styles['author__photo']}
         width="75"
         height="75"
         alt={author.name}
-      />
+      /> :
+        <Img
+          fluid={photo.childImageSharp.fluid}
+          className={styles['author__photo']}
+          width="75"
+          height="75"
+          alt={author.name}
+        />}
     </Link>
 
-    { isIndex === true ? (
+    {isIndex === true ? (
       <h1 className={styles['author__title']}>
         <Link className={styles['author__title-link']} to="/">
           {author.name}

@@ -212,5 +212,25 @@ module.exports = {
         siteUrl: `https://kobi.kadosh.me`,
       },
     },
+    {
+      resolve: `gatsby-source-gravatar`,
+      options: {
+        // Required.
+        // A list of emails to create URLs for.
+        emails: [
+          // Could be just a strings,
+          `kobi@kadosh.me`,
+          // Or an object, to pass an optional gravatar `query` parameter per email (see below).
+          // { email: `second@example.com`, query: `?size=128` },
+        ],
+
+        // Optional.
+        // No query string is passed to gravatar by default.
+        // But you can add your gravatar query parameters here.
+        // See https://en.gravatar.com/site/implement/images/
+        // If this is set, it will be the default for `emails` (see above) with no `query` options.
+        query: `?size=150&m=dp`,
+      },
+    },
   ]
 };

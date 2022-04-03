@@ -2,9 +2,12 @@
 import { useStaticQuery, graphql } from 'gatsby';
 
 const useSiteMetadata = () => {
-  const { site, authorPhoto } = useStaticQuery(
+  const { site, authorPhoto, gravatar } = useStaticQuery(
     graphql`
       query SiteMetaData {
+        gravatar(email: { eq: "kobi@kadosh.me" }) {
+          url
+        }
         authorPhoto: file(relativePath: { eq: "kobi-kadosh-1.jpeg" }) {
           childImageSharp {
             fluid(maxWidth: 128, maxHeight: 128) {
@@ -52,7 +55,7 @@ const useSiteMetadata = () => {
     `
   );
 
-  return { ...site.siteMetadata, authorPhoto };
+  return { ...site.siteMetadata, authorPhoto, gravatar };
 };
 
 export default useSiteMetadata;
