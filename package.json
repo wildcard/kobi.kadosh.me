@@ -75,7 +75,7 @@
     "invariant": "^2.2.4",
     "katex": "^0.11.1",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "netlify-cms-app": "^2.11.32",
     "netlify-plugin-a11y": "0.0.8",
     "netlify-plugin-checklinks": "^4.0.1",
