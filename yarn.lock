@@ -14832,10 +14832,10 @@ netlify-plugin-no-more-404@^0.0.14:
     netlify-redirect-parser "^1.0.3"
     netlify-redirector "^0.1.0"
 
-netlify-plugin-subfont@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-subfont/-/netlify-plugin-subfont-4.0.1.tgz#dc85544ad5653cab7ca3da1dc9f1472bc5db516e"
-  integrity sha512-Xqr5xrVGIzqJLPMkDDeXs6xbIu3aVpnqeODrp7SRAzk+APdhkajdOYiutgKYXBclWxC+rxTWlhiJxqJ1yKuTFg==
+netlify-plugin-subfont@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-subfont/-/netlify-plugin-subfont-4.1.1.tgz#feacdf264bd30b46102aeb556707a27204c0d152"
+  integrity sha512-DxJKNL9t7GDX9K109DqpQBk6WDiBOHmT3YzlTDli61kXoviR7m5zOWeLS6RLsnTLwW2yGEfe4V1on+iG2eP3wg==
   dependencies:
     globby "^11.0.0"
     subfont "^4.2.0"
