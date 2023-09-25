@@ -77,7 +77,7 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "netlify-cms-app": "^2.11.32",
-    "netlify-plugin-a11y": "0.0.8",
+    "netlify-plugin-a11y": "0.0.12",
     "netlify-plugin-checklinks": "^4.0.1",
     "netlify-plugin-gatsby-cache": "^0.2.1",
     "netlify-plugin-no-more-404": "^0.0.14",

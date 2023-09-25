@@ -14799,13 +14799,15 @@ netlify-identity-widget@^1.5.6:
   resolved "https://registry.yarnpkg.com/netlify-identity-widget/-/netlify-identity-widget-1.5.6.tgz#b841d4d469ad37bdc47e876d87cc2926aba2c302"
   integrity sha512-DvWVUGuswOd+IwexKjzIpYcqYMrghmnkmflNqCQc4lG4KX55zE3fFjfXziCTr6LibP7hvZp37s067j5N3kRuyw==
 
-netlify-plugin-a11y@0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-a11y/-/netlify-plugin-a11y-0.0.8.tgz#abce5fadd4563df0a90e51f2c58669ee8bf4ec12"
-  integrity sha512-4fk0cP1KrVqajKR5kaGjr7f5kT/zOYHt/ryTcR9WaJPTPCfiRMKUzTUK1uNeU9p7Caie7uBMu9CLjzSHBRULgg==
+netlify-plugin-a11y@0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-a11y/-/netlify-plugin-a11y-0.0.12.tgz#ce1cfc6548b63e405976772f4948e37f8b15a7f5"
+  integrity sha512-7/Phop1FUYFNtBUtDiRiM+EkGLlwZexS8dndU+ObxCrhfxSnpIkE1XBwOUGOqcvVKkn53j3ZwNoeV+H1dGH6UQ==
   dependencies:
     chalk "^3.0.0"
     pa11y "^5.3.0"
+    path-type "^4.0.0"
+    readdirp "^3.4.0"
 
 netlify-plugin-checklinks@^4.0.1:
   version "4.0.1"
@@ -17778,6 +17780,13 @@ readdirp@^2.2.1:
     graceful-fs "^4.1.11"
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
+
+readdirp@^3.4.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.6.0.tgz#74a370bd857116e245b29cc97340cd431a02a6c7"
+  integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
+  dependencies:
+    picomatch "^2.2.1"
 
 readdirp@~3.3.0:
   version "3.3.0"
