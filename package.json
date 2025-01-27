@@ -117,7 +117,7 @@
     "identity-obj-proxy": "3.0.0",
     "jest": "25.1.0",
     "jest-cli": "25.1.0",
-    "jest-junit": "^10.0.0",
+    "jest-junit": "^16.0.0",
     "lost": "8.3.1",
     "postcss-pxtorem": "5.1.1",
     "react-test-renderer": "16.12.0",
