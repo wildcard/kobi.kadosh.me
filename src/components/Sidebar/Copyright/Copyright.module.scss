@@ -1,8 +1,9 @@
+@use "sass:color";
 @use "../../../assets/scss/variables" as vars;
 @use "../../../assets/scss/mixins" as mix;
 
 .copyright {
-  color: lighten(vars.$color-gray, 18%);
+  color: color.scale(vars.$color-gray, $lightness: 18%);
   font-size: vars.$typographic-small-font-size;
 }
 

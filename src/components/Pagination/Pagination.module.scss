@@ -1,3 +1,4 @@
+@use "sass:color";
 @use "../../assets/scss/variables" as vars;
 @use "../../assets/scss/mixins" as mix;
 
@@ -21,7 +22,7 @@
 
       &--disable {
         pointer-events: none;
-        color: lighten(vars.$color-gray, 20%);
+        color: color.scale(vars.$color-gray, $lightness: 20%);
       }
 
     }
@@ -44,7 +45,7 @@
 
       &--disable {
         pointer-events: none;
-        color: lighten(vars.$color-gray, 20%);
+        color: color.scale(vars.$color-gray, $lightness: 20%);
       }
 
     }
