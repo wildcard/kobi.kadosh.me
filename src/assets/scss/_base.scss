@@ -3,4 +3,5 @@
 @forward "base/generic";
 @use "variables" as vars;
 @use "mixins" as mix;
-@import "normalize-scss";
+@use "sass:math";
+@use "normalize-scss/sass/normalize";
