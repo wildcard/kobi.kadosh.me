@@ -1,6 +1,10 @@
 backend:
   name: git-gateway
   branch: master
+  repo: wildcard/kobi.kadosh.me
+  
+site_url: https://kobi.kadosh.me
+display_url: https://kobi.kadosh.me
 
 media_folder: "static/media"
 public_folder: "/media"
