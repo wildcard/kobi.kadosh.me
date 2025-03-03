@@ -1,6 +1,6 @@
 // @flow strict
 import React from 'react';
-import type { Entry, WidgetFor } from '../../types';
+import { type Entry, type WidgetFor } from '../../types';
 
 type Props = {
   entry: Entry,
