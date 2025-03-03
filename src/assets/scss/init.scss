@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-@use "sass:math";
-@use "variables" as vars;
-@use "mixins" as mix;
-@use "base" as *;
+@import "variables";
+@import "mixins";
+@import "base";

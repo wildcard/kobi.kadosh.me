@@ -1,7 +1,4 @@
 @charset "UTF-8";
 
-@forward "base/generic";
-@use "variables" as vars;
-@use "mixins" as mix;
-@use "sass:math";
-@use "normalize-scss/sass/normalize";
+@import "normalize-scss";
+@import "base/generic";
