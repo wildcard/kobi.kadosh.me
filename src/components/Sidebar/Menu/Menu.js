@@ -1,7 +1,8 @@
 // @flow strict
 import React from 'react';
 import { Link } from 'gatsby';
-import styles from './Menu.module.scss';
+// Import styles without default export
+const styles = require('./Menu.module.scss');
 
 type Props = {
   menu: {
@@ -12,8 +13,8 @@ type Props = {
 };
 
 const linkClasses = {
-  className: styles['menu__list-item-link'],
-  activeClassName: styles['menu__list-item-link--active']
+  className: styles['menu__list_item_link'],
+  activeClassName: styles['menu__list_item_link_active']
 };
 
 const Menu = ({ menu }: Props) => (

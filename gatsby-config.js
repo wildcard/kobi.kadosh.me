@@ -130,6 +130,7 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-image',
     'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-netlify-cms',
@@ -230,7 +231,7 @@ module.exports = {
         // But you can add your gravatar query parameters here.
         // See https://en.gravatar.com/site/implement/images/
         // If this is set, it will be the default for `emails` (see above) with no `query` options.
-        query: `?size=150&m=dp`,
+        query: `?size=150&d=mp`,
       },
     },
   ]
