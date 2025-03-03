@@ -1,19 +1,20 @@
 /**
  * Padding
  */
+@use "../variables" as vars;
 
 @mixin padding($top, $right, $bottom:null, $left:null) {
     @if $left==null and $bottom==null {
-        padding: #{ $top * $typographic-leading + "px"} #{ $right * $typographic-leading + "px"};
+        padding: #{ $top * vars.$typographic-leading + "px"} #{ $right * vars.$typographic-leading + "px"};
     }
     @else if $left==null or $left==$right {
-        padding: #{ $top * $typographic-leading + "px"} #{ $right * $typographic-leading + "px"} #{ $bottom * $typographic-leading + "px"};
+        padding: #{ $top * vars.$typographic-leading + "px"} #{ $right * vars.$typographic-leading + "px"} #{ $bottom * vars.$typographic-leading + "px"};
     }
     @else {
-        padding: #{ $top * $typographic-leading + "px"} #{ $right * $typographic-leading + "px"} #{ $bottom * $typographic-leading + "px"} #{ $left * $typographic-leading + "px"};
+        padding: #{ $top * vars.$typographic-leading + "px"} #{ $right * vars.$typographic-leading + "px"} #{ $bottom * vars.$typographic-leading + "px"} #{ $left * vars.$typographic-leading + "px"};
     }
 }
 
 @mixin padding-equal($number) {
-    padding: #{ $number * $typographic-leading + "px"};
+    padding: #{ $number * vars.$typographic-leading + "px"};
 }
