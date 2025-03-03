@@ -2,7 +2,7 @@
 import React from 'react';
 import { getContactHref, getIcon } from '../../../utils';
 import Icon from '../../Icon';
-import './Contacts.module.scss';
+const styles = require('./Contacts.module.scss');
 
 type Props = {
   contacts: {
@@ -11,12 +11,12 @@ type Props = {
 };
 
 const Contacts = ({ contacts }: Props) => (
-  <div className="contacts">
-    <ul className="contacts__list">
+  <div className={styles.contacts}>
+    <ul className={styles['contacts__list']}>
       {Object.keys(contacts).map((name) => (!contacts[name] ? null : (
-        <li className="contacts__list-item" key={name}>
+        <li className={styles['contacts__list-item']} key={name}>
           <a
-            className="contacts__list-item-link"
+            className={styles['contacts__list-item-link']}
             href={getContactHref(name, contacts[name])}
             rel="noopener noreferrer"
             target="_blank"

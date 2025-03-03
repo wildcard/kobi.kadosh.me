@@ -1,18 +1,18 @@
 // @flow strict
 import React from 'react';
 import { getContactHref } from '../../../utils';
-import './Author.module.scss';
+const styles = require('./Author.module.scss');
 import { useSiteMetadata } from '../../../hooks';
 
 const Author = () => {
   const { author } = useSiteMetadata();
 
   return (
-    <div className="author">
-      <p className="author__bio">
+    <div className={styles.author}>
+      <p className={styles['author__bio']}>
         {author.bio}
         <a
-          className="author__bio-twitter"
+          className={styles['author__bio-twitter']}
           href={getContactHref('twitter', author.contacts.twitter)}
           rel="noopener noreferrer"
           target="_blank"

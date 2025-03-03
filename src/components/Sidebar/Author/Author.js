@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import './Author.module.scss';
+const styles = require('./Author.module.scss');
 
 type Props = {
   author: {
@@ -18,18 +18,18 @@ type Props = {
 };
 
 const Author = ({ author, gravatar, photo, isIndex }: Props) => (
-  <div className="author">
+  <div className={styles.author}>
     <Link to="/">
       {gravatar ? <img
         src={gravatar.url}
-        className="author__photo"
+        className={styles['author__photo']}
         width="75"
         height="75"
         alt={author.name}
       /> :
         <GatsbyImage
           image={getImage(photo)}
-          className="author__photo"
+          className={styles['author__photo']}
           width={75}
           height={75}
           alt={author.name}
@@ -37,19 +37,19 @@ const Author = ({ author, gravatar, photo, isIndex }: Props) => (
     </Link>
 
     {isIndex === true ? (
-      <h1 className="author__title">
-        <Link className="author__title-link" to="/">
+      <h1 className={styles['author__title']}>
+        <Link className={styles['author__title-link']} to="/">
           {author.name}
         </Link>
       </h1>
     ) : (
-      <h2 className="author__title">
-        <Link className="author__title-link" to="/">
+      <h2 className={styles['author__title']}>
+        <Link className={styles['author__title-link']} to="/">
           {author.name}
         </Link>
       </h2>
     )}
-    <p className="author__subtitle">{author.bio}</p>
+    <p className={styles['author__subtitle']}>{author.bio}</p>
   </div>
 );
 
