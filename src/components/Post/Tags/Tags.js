@@ -1,7 +1,7 @@
 // @flow strict
 import React from 'react';
 import { Link } from 'gatsby';
-import * as styles from './Tags.module.scss';
+import './Tags.module.scss';
 
 type Props = {
   tags: string[],
@@ -9,11 +9,11 @@ type Props = {
 };
 
 const Tags = ({ tags, tagSlugs }: Props) => (
-  <div className={styles['tags']}>
-    <ul className={styles['tags__list']}>
+  <div className="tags">
+    <ul className="tags__list">
       {tagSlugs && tagSlugs.map((slug, i) => (
-        <li className={styles['tags__list-item']} key={tags[i]}>
-          <Link to={slug} className={styles['tags__list-item-link']}>
+        <li className="tags__list-item" key={tags[i]}>
+          <Link to={slug} className="tags__list-item-link">
             {tags[i]}
           </Link>
         </li>

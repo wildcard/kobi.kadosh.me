@@ -82,5 +82,14 @@
 
 :export {
   feed: feed;
-  feed___item: feed___item;
+  feed__item: feed__item;
+  feed__item-meta: feed__item-meta;
+  feed__item-meta-time: feed__item-meta-time;
+  feed__item-meta-divider: feed__item-meta-divider;
+  feed__item-meta-category: feed__item-meta-category;
+  feed__item-meta-category-link: feed__item-meta-category-link;
+  feed__item-title: feed__item-title;
+  feed__item-title-link: feed__item-title-link;
+  feed__item-description: feed__item-description;
+  feed__item-readmore: feed__item-readmore;
 }

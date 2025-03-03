@@ -53,8 +53,21 @@
 
 }
 
+
+
 :export {
   pagination: pagination;
-  pagination___prev: pagination___prev;
-  pagination__link: pagination__link;
+  pagination__prev: pagination__prev;
+  pagination__prev__prev: pagination__prev__prev;
+  pagination__prev-link: pagination__prev-link;
+  pagination__prev--disable: pagination__prev--disable;
+  pagination-link: pagination-link;
+  pagination-link-link: pagination-link-link;
+  pagination-link--disable: pagination-link--disable;
+  pagination--disable: pagination--disable;
+  pagination--disable--disable: pagination--disable--disable;
+  pagination__next: pagination__next;
+  pagination__next__next: pagination__next__next;
+  pagination__next-link: pagination__next-link;
+  pagination__next--disable: pagination__next--disable;
 }

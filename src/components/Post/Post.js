@@ -6,7 +6,7 @@ import Comments from './Comments';
 import Content from './Content';
 import Meta from './Meta';
 import Tags from './Tags';
-import * as styles from './Post.module.scss';
+import './Post.module.scss';
 import { type Node } from '../../types';
 
 type Props = {
@@ -19,20 +19,20 @@ const Post = ({ post }: Props) => {
   const { tags, title, date } = post.frontmatter;
 
   return (
-    <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">All Articles</Link>
+    <div className="post">
+      <Link className="post__home-button" to="/">All Articles</Link>
 
-      <div className={styles['post__content']}>
+      <div className="post__content">
         <Content body={html} title={title} />
       </div>
 
-      <div className={styles['post__footer']}>
+      <div className="post__footer">
         <Meta date={date} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
         <Author />
       </div>
 
-      <div className={styles['post__comments']}>
+      <div className="post__comments">
         <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
     </div>
