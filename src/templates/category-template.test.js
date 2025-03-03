@@ -6,7 +6,7 @@ import CategoryTemplate from './category-template';
 import siteMetadata from '../../jest/__fixtures__/site-metadata';
 import allMarkdownRemark from '../../jest/__fixtures__/all-markdown-remark';
 import pageContext from '../../jest/__fixtures__/page-context';
-import type { RenderCallback } from '../types';
+import { type RenderCallback } from '../types';
 
 describe('CategoryTemplate', () => {
   const props = {

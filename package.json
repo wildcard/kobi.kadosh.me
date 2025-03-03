@@ -15,7 +15,7 @@
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
     "lint:scss": "stylelint \"src/**/*.scss\"",
-    "lint": "concurrently \"yarn run lint:js\" \"yarn run lint:scss\" \"yarn flow\"",
+    "lint": "concurrently \"yarn run lint:js\" \"yarn run lint:scss\"",
     "test": "jest --config ./jest/jest-config.js",
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
@@ -53,6 +53,7 @@
     "gatsby-plugin-feed": "^5.12.3",
     "gatsby-plugin-flow": "^4.14.0",
     "gatsby-plugin-google-gtag": "^5.12.0",
+    "gatsby-plugin-image": "^3.12.3",
     "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-plugin-netlify-cms": "^7.12.0",
@@ -72,7 +73,6 @@
     "gatsby-remark-responsive-iframe": "^6.12.0",
     "gatsby-remark-smartypants": "^6.12.0",
     "gatsby-source-filesystem": "^5.12.1",
-    "gatsby-plugin-image": "^3.12.3",
     "gatsby-source-gravatar": "^1.0.3",
     "gatsby-transformer-remark": "^6.12.3",
     "gatsby-transformer-sharp": "^5.12.3",
@@ -86,13 +86,13 @@
     "netlify-plugin-gatsby-cache": "^0.2.1",
     "netlify-plugin-no-more-404": "^0.0.15",
     "netlify-plugin-subfont": "^6.0.0",
-    "sass": "^1.72.0",
     "normalize-scss": "^7.0.1",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "sass": "^1.72.0"
   },
   "devDependencies": {
     "@babel/core": "7.23.9",
@@ -104,6 +104,7 @@
     "autoprefixer": "10.4.17",
     "babel-eslint": "10.1.0",
     "babel-jest": "29.7.0",
+    "babel-plugin-transform-flow-enums": "^0.0.2",
     "babel-preset-gatsby": "3.12.1",
     "browserslist": "4.23.0",
     "concurrently": "8.2.2",

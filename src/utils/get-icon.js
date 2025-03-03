@@ -1,7 +1,7 @@
 // @flow strict
 import { ICONS } from '../constants';
 
-const getIcon = (name: string) => {
+const getIcon = (name: string): Object => {
   let icon;
 
   switch (name) {

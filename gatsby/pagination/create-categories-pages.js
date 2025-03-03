@@ -13,7 +13,7 @@ module.exports = async (graphql, actions) => {
       allMarkdownRemark(
         filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
       ) {
-        group(field: frontmatter___category) {
+        group(field: {frontmatter: {category: SELECT}}) {
           fieldValue
           totalCount
         }

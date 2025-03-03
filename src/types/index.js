@@ -1,5 +1,5 @@
 // @flow strict
-import type { Node as ReactNode } from 'react';
+import { type Node as ReactNode } from 'react';
 
 export type RenderCallback = {
   // $FlowFixMe

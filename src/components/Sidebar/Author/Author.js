@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Img, { FluidObject } from 'gatsby-image';
-import styles from './Author.module.scss';
+import * as styles from './Author.module.scss';
 
 type Props = {
   author: {

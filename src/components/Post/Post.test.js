@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import { useStaticQuery, StaticQuery } from 'gatsby';
 import Post from './Post';
 import siteMetadata from '../../../jest/__fixtures__/site-metadata';
-import type { RenderCallback } from '../../types';
+import { type RenderCallback } from '../../types';
 
 describe('Post', () => {
   beforeEach(() => {

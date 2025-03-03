@@ -1,7 +1,7 @@
 // @flow strict
 import React from 'react';
 import { Link } from 'gatsby';
-import styles from './Tags.module.scss';
+import * as styles from './Tags.module.scss';
 
 type Props = {
   tags: string[],

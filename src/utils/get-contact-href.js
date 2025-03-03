@@ -1,5 +1,5 @@
 // @flow strict
-const getContactHref = (name: string, contact: string) => {
+const getContactHref = (name: string, contact: string): string => {
   let href;
 
   switch (name) {
