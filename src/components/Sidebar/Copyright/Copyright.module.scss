@@ -1,9 +1,9 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@use "../../../assets/scss/variables" as vars;
+@use "../../../assets/scss/mixins" as mix;
 
 .copyright {
-  color: lighten($color-gray, 18%);
-  font-size: $typographic-small-font-size;
+  color: lighten(vars.$color-gray, 18%);
+  font-size: vars.$typographic-small-font-size;
 }
 
 :export {

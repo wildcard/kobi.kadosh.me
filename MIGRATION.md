@@ -1,4 +1,4 @@
-# Gatsby Migration Documentation - March 2025
+# Gatsby Migration Documentation - March 2025 (Updated)
 
 ## Overview
 
@@ -191,18 +191,179 @@ Created a `CLAUDE.md` file with development commands and code style guidelines:
 - **Error Handling**: Use try/catch with descriptive error messages
 ```
 
-## 8. Known Issues
+## 8. Modern SCSS Migration
+
+### Sass Module System
+Updated all SCSS files to use the modern Sass module system:
+
+**Before:**
+```scss
+@import "variables";
+@import "mixins";
+```
+
+**After:**
+```scss
+@use "variables" as vars;
+@use "mixins" as mix;
+```
+
+### Updated Color Functions
+Replaced deprecated Sass color functions with modern equivalents:
+
+**Before:**
+```scss
+$color-gray: lighten($color-base, 40%);
+```
+
+**After:**
+```scss
+@use "sass:color";
+$color-gray: color.scale($color-base, $lightness: 40%);
+```
+
+### Updated Mixin Imports
+Changed the mixin forwarding approach:
+
+**Before:**
+```scss
+@import "mixins/breakpoints";
+@import "mixins/margin";
+```
+
+**After:**
+```scss
+@forward "mixins/breakpoints";
+@forward "mixins/margin";
+```
+
+### Variable References in Component Files
+Updated how variables are accessed in component SCSS files:
+
+**Before:**
+```scss
+color: $color-base;
+```
+
+**After:**
+```scss
+color: vars.$color-base;
+```
+
+## 9. Gatsby Image Migration
+
+### Modern Image API
+Migrated from deprecated gatsby-image to gatsby-plugin-image:
+
+**Before:**
+```graphql
+childImageSharp {
+  fluid(maxWidth: 128) {
+    ...GatsbyImageSharpFluid
+  }
+}
+```
+
+**After:**
+```graphql
+childImageSharp {
+  gatsbyImageData(width: 128, layout: CONSTRAINED)
+}
+```
+
+### Component Updates
+Updated image components to use modern API:
+
+**Before:**
+```jsx
+import Img from 'gatsby-image';
+// ...
+<Img fluid={photo.childImageSharp.fluid} alt={author.name} />
+```
+
+**After:**
+```jsx
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+// ...
+<GatsbyImage image={getImage(photo)} alt={author.name} />
+```
+
+### Flow Type Updates
+Updated Flow type definitions for image objects:
+
+**Before:**
+```javascript
+type Props = {
+  photo: {
+    childImageSharp: {
+      fluid: FluidObject
+    }
+  }
+};
+```
+
+**After:**
+```javascript
+type Props = {
+  photo: {
+    childImageSharp: {
+      gatsbyImageData: Object
+    }
+  }
+};
+```
+
+## 10. Sitemap Plugin Configuration
+
+Re-enabled and properly configured the sitemap plugin for Gatsby v5:
+
+**Before:**
+```javascript
+// 'gatsby-plugin-sitemap',
+```
+
+**After:**
+```javascript
+{
+  resolve: 'gatsby-plugin-sitemap',
+  options: {
+    query: `
+      {
+        site {
+          siteMetadata {
+            siteUrl: url
+          }
+        }
+        allSitePage {
+          nodes {
+            path
+          }
+        }
+      }
+    `,
+    resolveSiteUrl: (data) => data.site.siteMetadata.siteUrl,
+    serialize: ({ site, allSitePage }) =>
+      allSitePage.nodes.map((node) => ({
+        url: `${site.siteMetadata.siteUrl}${node.path}`,
+        changefreq: 'daily',
+        priority: 0.7,
+      }))
+  },
+},
+```
+
+## 11. Known Issues
 
 - Some non-critical CSS and Sass deprecation warnings may still appear during build but don't affect functionality
 - The site has been tested to build successfully but thorough testing of all features is recommended
 
-## 9. Future Improvements
+## 12. Future Improvements
 
 - Consider upgrading to TypeScript instead of Flow for better type checking and ecosystem support
-- Optimize image loading and processing for better performance
 - Add automated testing workflow via GitHub Actions
 - Consider replacing deprecated packages with more modern alternatives
+- Implement performance optimizations using Gatsby's latest features
 
-## 10. Testing
+## 13. Testing
 
 After implementing all changes, the site successfully builds and runs with `yarn develop`. All pages load correctly with styling intact, and content renders as expected.

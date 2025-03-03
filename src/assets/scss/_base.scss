@@ -1,4 +1,6 @@
 @charset "UTF-8";
 
+@forward "base/generic";
+@use "variables" as vars;
+@use "mixins" as mix;
 @import "normalize-scss";
-@import "base/generic";

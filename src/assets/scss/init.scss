@@ -1,5 +1,5 @@
 @charset "UTF-8";
 
-@import "variables";
-@import "mixins";
-@import "base";
+@use "variables" as vars;
+@use "mixins" as mix;
+@use "base";

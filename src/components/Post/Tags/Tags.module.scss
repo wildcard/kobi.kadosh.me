@@ -1,8 +1,8 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@use "../../../assets/scss/variables" as vars;
+@use "../../../assets/scss/mixins" as mix;
 
 .tags {
-  @include margin-bottom(.5);
+  @include mix.margin-bottom(.5);
 
   &__list {
     list-style: none;
@@ -15,17 +15,17 @@
 
       &-link {
         display: inline-block;
-        height: $button-height;
+        height: vars.$button-height;
         padding: 0 24px;
-        line-height: $button-height;
-        border: 1px solid $color-gray-border;
+        line-height: vars.$button-height;
+        border: 1px solid vars.$color-gray-border;
         text-decoration: none;
-        border-radius: $button-border-radius;
-        color: $color-base;
+        border-radius: vars.$button-border-radius;
+        color: vars.$color-base;
 
         &:hover,
         &:focus {
-          color: $color-primary;
+          color: vars.$color-primary;
         }
 
       }

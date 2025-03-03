@@ -1,15 +1,15 @@
-@import '../../assets/scss/variables';
-@import '../../assets/scss/mixins';
+@use "../../assets/scss/variables" as vars;
+@use "../../assets/scss/mixins" as mix;
 
 .post {
   &__footer {
-    max-width: $layout-post-width;
+    max-width: vars.$layout-post-width;
     margin: 0 auto;
     padding: 0 15px;
   }
 
   &__comments {
-    max-width: $layout-post-width;
+    max-width: vars.$layout-post-width;
     margin: 0 auto;
     padding: 0 15px;
   }
@@ -17,29 +17,29 @@
   &__home-button {
     display: block;
     max-width: 90px;
-    height: $button-height;
+    height: vars.$button-height;
     padding: 0 24px;
-    line-height: $button-height;
+    line-height: vars.$button-height;
     text-align: center;
-    color: $color-base;
-    border: 1px solid $color-gray-border;
-    border-radius: $button-border-radius;
-    font-size: $typographic-base-font-size;
+    color: vars.$color-base;
+    border: 1px solid vars.$color-gray-border;
+    border-radius: vars.$button-border-radius;
+    font-size: vars.$typographic-base-font-size;
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
-    @include margin-top(1);
+    @include mix.margin-top(1);
 
     &:hover,
     &:focus {
-      color: $color-primary;
+      color: vars.$color-primary;
     }
 
   }
 
 }
 
-@include breakpoint-md {
+@include mix.breakpoint-md {
   .post {
     &__footer {
       padding: 0;

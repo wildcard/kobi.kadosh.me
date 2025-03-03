@@ -1,8 +1,8 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@use "../../../assets/scss/variables" as vars;
+@use "../../../assets/scss/mixins" as mix;
 
 .contacts {
-  @include margin-bottom(1);
+  @include mix.margin-bottom(1);
 
   &__list {
     display: flex;
@@ -21,21 +21,21 @@
       align-content: center;
       align-items: center;
       justify-content: center;
-      height: $button-height;
-      width: $button-height;
-      line-height: $button-height;
+      height: vars.$button-height;
+      width: vars.$button-height;
+      line-height: vars.$button-height;
       border-radius: 50%;
       text-align: center;
-      border: 1px solid $color-gray-bg;
+      border: 1px solid vars.$color-gray-bg;
 
       &-link {
         border: 0;
         display: flex;
-        color: $color-base;
+        color: vars.$color-base;
   
         &:hover,
         &:focus {
-          color: $color-primary;
+          color: vars.$color-primary;
         }
 
       }

@@ -1,5 +1,5 @@
-@import '../../assets/scss/variables';
-@import '../../assets/scss/mixins';
+@use "../../assets/scss/variables" as vars;
+@use "../../assets/scss/mixins" as mix;
 
 .sidebar {
     width: 100%;
@@ -9,14 +9,14 @@
     }
 }
 
-@include breakpoint-sm {
+@include mix.breakpoint-sm {
     .sidebar {
         lost-column: 5/12;
         &__inner {
             padding: 30px 20px 0;
             &:after {
-                background: $color-gray-border;
-                background: linear-gradient(to bottom, $color-gray-border 0%, $color-gray-border 48%, $color-white 100%);
+                background: vars.$color-gray-border;
+                background: linear-gradient(to bottom, vars.$color-gray-border 0%, vars.$color-gray-border 48%, vars.$color-white 100%);
                 position: absolute;
                 content: '';
                 width: 1px;
@@ -29,7 +29,7 @@
     }
 }
 
-@include breakpoint-md {
+@include mix.breakpoint-md {
     .sidebar {
         lost-column: 1/3;
         &__inner {

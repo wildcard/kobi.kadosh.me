@@ -1,8 +1,8 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@use "../../../assets/scss/variables" as vars;
+@use "../../../assets/scss/mixins" as mix;
 
 .menu {
-  @include margin-bottom(1);
+  @include mix.margin-bottom(1);
 
   &__list {
     list-style: none;
@@ -14,20 +14,20 @@
       margin: 10px 0;
 
       &-link {
-        font-size: $typographic-base-font-size;
-        color: $typographic-base-font-color;
+        font-size: vars.$typographic-base-font-size;
+        color: vars.$typographic-base-font-color;
         font-weight: normal;
         border: 0;
 
         &:hover,
         &:focus {
-          color: $color-primary;
-          border-bottom: 1px solid $color-primary;
+          color: vars.$color-primary;
+          border-bottom: 1px solid vars.$color-primary;
         }
 
         &--active {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          color: vars.$color-base;
+          border-bottom: 1px solid vars.$color-base;
         }
 
       }

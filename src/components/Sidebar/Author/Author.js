@@ -1,7 +1,7 @@
 // @flow strict
 import React from 'react';
 import { Link } from 'gatsby';
-import Img, { FluidObject } from 'gatsby-image';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import './Author.module.scss';
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
   },
   photo: {
     childImageSharp: {
-      fluid: FluidObject
+      gatsbyImageData: Object
     }
   },
   isIndex: ?boolean,
@@ -27,11 +27,11 @@ const Author = ({ author, gravatar, photo, isIndex }: Props) => (
         height="75"
         alt={author.name}
       /> :
-        <Img
-          fluid={photo.childImageSharp.fluid}
+        <GatsbyImage
+          image={getImage(photo)}
           className="author__photo"
-          width="75"
-          height="75"
+          width={75}
+          height={75}
           alt={author.name}
         />}
     </Link>

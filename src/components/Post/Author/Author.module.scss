@@ -1,13 +1,13 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@use "../../../assets/scss/variables" as vars;
+@use "../../../assets/scss/mixins" as mix;
 
 .author {
-  border-top: 1px solid $color-gray-border;
-  max-width: $layout-post-width;
+  border-top: 1px solid vars.$color-gray-border;
+  max-width: vars.$layout-post-width;
   padding-top: 20px;
-  @include line-height(1);
-  @include margin-top(1);
-  @include margin-bottom(2);
+  @include mix.line-height(1);
+  @include mix.margin-top(1);
+  @include mix.margin-bottom(2);
 
   &__bio {
     &-twitter {
@@ -17,7 +17,7 @@
   }
 }
 
-@include breakpoint-sm {
+@include mix.breakpoint-sm {
   .author {
     margin-left: auto;
     margin-right: auto;

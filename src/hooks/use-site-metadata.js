@@ -10,9 +10,7 @@ const useSiteMetadata = () => {
         }
         authorPhoto: file(relativePath: { eq: "kobi-kadosh-1.jpeg" }) {
           childImageSharp {
-            fluid(maxWidth: 128, maxHeight: 128) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 128, height: 128, layout: CONSTRAINED)
           }
         }
         site {
