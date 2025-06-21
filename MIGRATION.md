@@ -108,7 +108,6 @@ Created a new `.babelrc` file to properly strip Flow types during build:
   ],
   "plugins": [
     "@babel/plugin-proposal-class-properties",
-    "@babel/plugin-proposal-optional-chaining",
     ["@babel/plugin-transform-flow-strip-types", { "all": true }]
   ]
 }
