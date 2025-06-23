@@ -34,7 +34,8 @@ describe('Post', () => {
           'test_0',
           'test_1'
         ],
-        title: 'test'
+        title: 'test',
+        audioPodcast: 'project-id'
       }
     }
   };

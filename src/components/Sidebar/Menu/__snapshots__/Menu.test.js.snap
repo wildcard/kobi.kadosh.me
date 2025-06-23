@@ -11,7 +11,7 @@ exports[`Menu renders correctly 1`] = `
       className="menu__list-item"
     >
       <a
-        className="menu__list-item-link"
+        className="menu__list_item_link"
         href="/#0/"
       >
         Item 0
@@ -21,7 +21,7 @@ exports[`Menu renders correctly 1`] = `
       className="menu__list-item"
     >
       <a
-        className="menu__list-item-link"
+        className="menu__list_item_link"
         href="/#1/"
       >
         Item 1
@@ -31,8 +31,8 @@ exports[`Menu renders correctly 1`] = `
       className="menu__list-item"
     >
       <a
-        activeClassName="menu__list-item-link--active"
-        className="menu__list-item-link"
+        activeClassName="menu__list_item_link_active"
+        className="menu__list_item_link"
         href="https://www.example.com"
       >
         External Item 1

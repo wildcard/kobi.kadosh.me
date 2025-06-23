@@ -3,12 +3,16 @@ import React, { useEffect } from 'react';
 const siteConfig = require('../../../config.js');
 
 type Props = {
-  publicUserId: string,
+  publicUserId?: string,
+  projectId?: string,
 };
 
 const SCRIPT_ID = 'elevenlabs-audionative-script';
 
-const AudioNative = ({ publicUserId }: Props) => {
+const AudioNative = ({
+  publicUserId = siteConfig.elevenLabsPublicUserId,
+  projectId,
+}: Props) => {
   useEffect(() => {
     if (typeof document !== 'undefined' && !document.getElementById(SCRIPT_ID)) {
       const script = document.createElement('script');
@@ -28,7 +32,7 @@ const AudioNative = ({ publicUserId }: Props) => {
       data-scrolling="no"
       data-publicuserid={publicUserId}
       data-playerurl="https://elevenlabs.io/player/index.html"
-      data-projectid={siteConfig.elevenLabsProjectId}
+      data-projectid={projectId}
     >
       Loading the{' '}
       <a href="https://elevenlabs.io/text-to-speech" target="_blank" rel="noopener">

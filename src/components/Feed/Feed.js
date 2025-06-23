@@ -28,7 +28,7 @@ const Feed = ({ edges }: Props) => (
         </h2>
         <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
         {edge.node.frontmatter.audioRecap && (
-          <AudioNative publicUserId={edge.node.frontmatter.audioRecap} />
+          <AudioNative projectId={edge.node.frontmatter.audioRecap} />
         )}
         <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read</Link>
       </div>

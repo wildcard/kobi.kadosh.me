@@ -13,33 +13,46 @@ exports[`Post renders correctly 1`] = `
   <div
     className="post__content"
   >
-    <div
-      className="content"
-    >
-      <h1
-        className="content__title"
-      >
+    <div>
+      <h1>
         test
       </h1>
       <div
-        className="content__body"
         dangerouslySetInnerHTML={
-          Object {
+          {
             "__html": "<p>test</p>",
           }
         }
       />
     </div>
+    <div
+      data-frameborder="no"
+      data-height="90"
+      data-playerurl="https://elevenlabs.io/player/index.html"
+      data-projectid="project-id"
+      data-publicuserid="d939997dcea5f564a1ace4880f2393c1c438527124abca30937ab4a8b53fcf05"
+      data-scrolling="no"
+      data-width="100%"
+      id="elevenlabs-audionative-widget"
+    >
+      Loading the
+       
+      <a
+        href="https://elevenlabs.io/text-to-speech"
+        rel="noopener"
+        target="_blank"
+      >
+        Elevenlabs Text to Speech
+      </a>
+       
+      AudioNative Player...
+    </div>
   </div>
   <div
     className="post__footer"
   >
-    <div
-      className="meta"
-    >
-      <p
-        className="meta__date"
-      >
+    <div>
+      <p>
         Published 
         1 Sep 2016
       </p>

@@ -6,6 +6,7 @@ import Comments from './Comments';
 import Content from './Content';
 import Meta from './Meta';
 import Tags from './Tags';
+import AudioNative from '../AudioNative';
 const styles = require('./Post.module.scss');
 import { type Node } from '../../types';
 
@@ -16,7 +17,7 @@ type Props = {
 const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
-  const { tags, title, date } = post.frontmatter;
+  const { tags, title, date, audioPodcast } = post.frontmatter;
 
   return (
     <div className={styles.post}>
@@ -24,6 +25,7 @@ const Post = ({ post }: Props) => {
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />
+        {audioPodcast && <AudioNative projectId={audioPodcast} />}
       </div>
 
       <div className={styles['post__footer']}>
