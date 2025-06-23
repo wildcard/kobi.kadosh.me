@@ -15,6 +15,7 @@ tags:
   - Career Advice
   - Read More
   - Growth
+audioRecap: "d939997dcea5f564a1ace4880f2393c1c438527124abca30937ab4a8b53fcf05"
 ---
 I started my career as a young developer fresh from my mandatory military service in the IDF. I’d quickly learn, in just a couple of months, practices that I hadn’t acquired in my 3 years of service. One of the first realizations while working post-army was: I can achieve most of the tasks with my current knowledge, but I need to learn new techniques and improve the ones I already have, fast.
 

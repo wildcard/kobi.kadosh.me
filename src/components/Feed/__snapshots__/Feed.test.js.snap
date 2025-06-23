@@ -45,6 +45,28 @@ exports[`Feed renders correctly 1`] = `
     >
       test_0
     </p>
+    <div
+      data-frameborder="no"
+      data-height="90"
+      data-playerurl="https://elevenlabs.io/player/index.html"
+      data-projectid="SjZf1f1TP9cUscKEZki4"
+      data-publicuserid="public-id-0"
+      data-scrolling="no"
+      data-width="100%"
+      id="elevenlabs-audionative-widget"
+    >
+      Loading the
+       
+      <a
+        href="https://elevenlabs.io/text-to-speech"
+        rel="noopener"
+        target="_blank"
+      >
+        Elevenlabs Text to Speech
+      </a>
+       
+      AudioNative Player...
+    </div>
     <a
       className="feed__item-readmore"
       href="/test_0"
@@ -93,6 +115,28 @@ exports[`Feed renders correctly 1`] = `
     >
       test_1
     </p>
+    <div
+      data-frameborder="no"
+      data-height="90"
+      data-playerurl="https://elevenlabs.io/player/index.html"
+      data-projectid="SjZf1f1TP9cUscKEZki4"
+      data-publicuserid="public-id-1"
+      data-scrolling="no"
+      data-width="100%"
+      id="elevenlabs-audionative-widget"
+    >
+      Loading the
+       
+      <a
+        href="https://elevenlabs.io/text-to-speech"
+        rel="noopener"
+        target="_blank"
+      >
+        Elevenlabs Text to Speech
+      </a>
+       
+      AudioNative Player...
+    </div>
     <a
       className="feed__item-readmore"
       href="/test_1"

@@ -3,6 +3,7 @@ import React from 'react';
 import moment from 'moment';
 import { Link } from 'gatsby';
 import { type Edges } from '../../types';
+import AudioNative from '../AudioNative';
 const styles = require('./Feed.module.scss');
 
 type Props = {
@@ -26,6 +27,9 @@ const Feed = ({ edges }: Props) => (
           <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
         </h2>
         <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
+        {edge.node.frontmatter.audioRecap && (
+          <AudioNative publicUserId={edge.node.frontmatter.audioRecap} />
+        )}
         <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read</Link>
       </div>
     ))}

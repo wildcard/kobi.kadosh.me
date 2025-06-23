@@ -10,6 +10,7 @@ module.exports = {
   postsPerPage: 4,
   googleAnalyticsId: 'G-5H8CPHL4SR',
   useKatex: false,
+  elevenLabsProjectId: 'SjZf1f1TP9cUscKEZki4',
   menu: [
     // {
     //   label: 'Articles',
