@@ -20,7 +20,7 @@ describe('Feed', () => {
             date: '2016-09-01',
             description: 'test_0',
             category: 'test_0',
-            audioRecap: 'public-id-0',
+            audioRecap: 'project-id-0',
             tags: [
               'test-1',
               'test-2'
@@ -46,7 +46,7 @@ describe('Feed', () => {
             date: '2016-09-01',
             description: 'test_1',
             category: 'test_1',
-            audioRecap: 'public-id-1',
+            audioRecap: 'project-id-1',
             tags: [
               'test-1',
               'test-2'

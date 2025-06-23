@@ -10,7 +10,8 @@ module.exports = {
   postsPerPage: 4,
   googleAnalyticsId: 'G-5H8CPHL4SR',
   useKatex: false,
-  elevenLabsProjectId: 'SjZf1f1TP9cUscKEZki4',
+  // Public ID for ElevenLabs audio widgets
+  elevenLabsPublicUserId: 'd939997dcea5f564a1ace4880f2393c1c438527124abca30937ab4a8b53fcf05',
   menu: [
     // {
     //   label: 'Articles',

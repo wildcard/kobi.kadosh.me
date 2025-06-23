@@ -40,6 +40,8 @@ export const query = graphql`
         tags
         title
         socialImage
+        audioRecap
+        audioPodcast
       }
     }
   }

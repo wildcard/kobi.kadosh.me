@@ -1,20 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Page renders correctly 1`] = `
-<div
-  className="page"
->
-  <div
-    className="page__inner"
-  >
-    <h1
-      className="page__title"
-    >
+<div>
+  <div>
+    <h1>
       test
     </h1>
-    <div
-      className="page__body"
-    >
+    <div>
       test
     </div>
   </div>

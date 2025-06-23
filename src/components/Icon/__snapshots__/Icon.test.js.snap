@@ -2,7 +2,6 @@
 
 exports[`Icon renders correctly 1`] = `
 <svg
-  className="icon"
   viewBox="0 0 0 0"
 >
   <title>

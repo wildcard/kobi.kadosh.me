@@ -1,23 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Contacts renders correctly 1`] = `
-<div
-  className="contacts"
->
-  <ul
-    className="contacts__list"
-  >
-    <li
-      className="contacts__list-item"
-    >
+<div>
+  <ul>
+    <li>
       <a
-        className="contacts__list-item-link"
         href="mailto:#"
         rel="noopener noreferrer"
         target="_blank"
       >
         <svg
-          className="icon"
           viewBox="0 0 28 28"
         >
           <title>
@@ -29,17 +21,13 @@ exports[`Contacts renders correctly 1`] = `
         </svg>
       </a>
     </li>
-    <li
-      className="contacts__list-item"
-    >
+    <li>
       <a
-        className="contacts__list-item-link"
         href="https://www.twitter.com/#"
         rel="noopener noreferrer"
         target="_blank"
       >
         <svg
-          className="icon"
           viewBox="0 0 26 28"
         >
           <title>
@@ -51,17 +39,13 @@ exports[`Contacts renders correctly 1`] = `
         </svg>
       </a>
     </li>
-    <li
-      className="contacts__list-item"
-    >
+    <li>
       <a
-        className="contacts__list-item-link"
         href="https://vk.com/#"
         rel="noopener noreferrer"
         target="_blank"
       >
         <svg
-          className="icon"
           viewBox="0 0 31 28"
         >
           <title>
@@ -73,17 +57,13 @@ exports[`Contacts renders correctly 1`] = `
         </svg>
       </a>
     </li>
-    <li
-      className="contacts__list-item"
-    >
+    <li>
       <a
-        className="contacts__list-item-link"
         href="https://github.com/#"
         rel="noopener noreferrer"
         target="_blank"
       >
         <svg
-          className="icon"
           viewBox="0 0 26 28"
         >
           <title>
@@ -95,17 +75,13 @@ exports[`Contacts renders correctly 1`] = `
         </svg>
       </a>
     </li>
-    <li
-      className="contacts__list-item"
-    >
+    <li>
       <a
-        className="contacts__list-item-link"
         href="#"
         rel="noopener noreferrer"
         target="_blank"
       >
         <svg
-          className="icon"
           viewBox="0 0 22 28"
         >
           <title>
@@ -117,17 +93,13 @@ exports[`Contacts renders correctly 1`] = `
         </svg>
       </a>
     </li>
-    <li
-      className="contacts__list-item"
-    >
+    <li>
       <a
-        className="contacts__list-item-link"
         href="https://t.me/#"
         rel="noopener noreferrer"
         target="_blank"
       >
         <svg
-          className="icon"
           viewBox="0 0 28 28"
         >
           <title>
